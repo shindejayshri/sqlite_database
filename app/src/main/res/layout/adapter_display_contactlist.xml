@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:layout_margin="10dp"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtname"
+        android:hint="name"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        ></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:id="@+id/txtemail"
+        android:hint="email"
+        android:textSize="20dp"
+        ></TextView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtpassword"
+        android:hint="password"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        ></TextView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtmobileno"
+        android:textColor="@color/black"
+        android:hint="mobileNo"
+        android:textSize="20dp"
+        ></TextView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_delete"
+        android:layout_marginLeft="200dp"
+        android:text="delete"></Button>
+
+</LinearLayout>
